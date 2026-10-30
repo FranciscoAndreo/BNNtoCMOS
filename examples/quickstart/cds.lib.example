@@ -1,0 +1,19 @@
+-- cds.lib for a BNNtoCMOS working directory. Copy it to cds.lib in an empty
+-- directory and edit the paths. The names must
+-- match COMPONENT_LIBNAME and COMPONENT_NMOS_LIBNAME of skill/MAIN_PARAMETERS.il.
+-- The generators add the libraries they create (QUICKSTART_*, B2C_*, ...).
+
+-- Cadence libraries: sources (analogLib), pins (basic) and the behavioural
+-- cells of BATCHNORM_MODEL = "ahdlLib". All three ship with Virtuoso: use the
+-- paths of your installation.
+DEFINE basic /path/to/basic
+DEFINE analogLib /path/to/analogLib
+DEFINE ahdlLib /path/to/ahdlLib
+
+-- Technology library with the reset transistor (COMPONENT_NMOS_LIBNAME).
+DEFINE TECH_LIB /path/to/technology/library
+
+-- Component library (COMPONENT_LIBNAME, see docs/components.md), and one
+-- DEFINE for every other library its cells instantiate.
+DEFINE IMC_CELLS /path/to/IMC_CELLS
+-- DEFINE otherLib /path/to/otherLib

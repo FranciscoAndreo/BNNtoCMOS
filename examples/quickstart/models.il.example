@@ -1,0 +1,7 @@
+; models.il -- the Spectre model files of your technology for the generated OCEAN
+; scripts: '(("file" "section") ...). Copy this file to models.il, edit the
+; paths, and pass it to run_quickstart.sh (or load it before generating).
+TB_MODEL_FILES = '(
+  ("/path/to/models/transistors.lib.scs" "tt")
+  ("/path/to/models/capacitors.lib.scs" "typ")
+)

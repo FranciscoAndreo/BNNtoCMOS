@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use BNNtoCMOS, please cite the article below."
+title: "BNNtoCMOS"
+abstract: >-
+  Device-level schematic generation of mixed-signal CMOS in-memory-computing
+  circuits for binarized convolutional neural networks, in Cadence Virtuoso
+  SKILL, with a parser for trained Larq/Keras and ONNX models.
+type: software
+authors:
+  - family-names: Andreo-Oliver
+    given-names: F. J.
+    affiliation: Universidad Politécnica de Cartagena
+  - family-names: Doménech-Asensi
+    given-names: G.
+    affiliation: Universidad Politécnica de Cartagena
+  - family-names: Díaz-Madrid
+    given-names: J. A.
+    affiliation: Universidad Politécnica de Cartagena
+version: 1.0.0
+license: CC-BY-4.0
+repository-code: "https://github.com/FranciscoAndreo/BNNtoCMOS"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Andreo-Oliver
+      given-names: F. J.
+      affiliation: Universidad Politécnica de Cartagena
+    - family-names: Doménech-Asensi
+      given-names: G.
+      affiliation: Universidad Politécnica de Cartagena
+    - family-names: Díaz-Madrid
+      given-names: J. A.
+      affiliation: Universidad Politécnica de Cartagena
+  title: "Device-Level Synthesis of Mixed-Signal CMOS In-Memory-Computing Circuits for Binarized CNNs"
+  journal: "International Journal of Circuit Theory and Applications"
+  status: submitted

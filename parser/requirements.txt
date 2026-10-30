@@ -1,0 +1,3 @@
+h5py>=3
+numpy>=1.21
+onnx>=1.17  # only for ONNX models
